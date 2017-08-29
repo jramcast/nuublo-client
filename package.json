@@ -1,0 +1,32 @@
+{
+  "name": "nuublo-client",
+  "version": "1.0.0",
+  "description": "Nuublo Web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jramcast/nuublo-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jramcast/nuublo-client/issues"
+  },
+  "homepage": "https://github.com/jramcast/nuublo-client#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-slidein": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-react": "^7.3.0"
+  }
+}
