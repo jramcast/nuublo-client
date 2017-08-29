@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My React From The Scratch</title>
+    <meta charset="utf-8">
+    <meta content="author" description="Pusher of codes">
+    <style>
+        .react-slidein {
+            height: 0;
+            transition-property: none;
+            transition-duration: .5s;
+            transition-timing-function: ease-in-out;
+        }
+
+        .react-slidein.transitioning {
+            overflow-y: hidden;
+        }
+
+        .react-slidein.closed {
+            display: none;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <hr>
+    <button id="slideinBtn">Btn</button>
+    <div id="slidein"></div>
+    
+  </body>
+</html>
